@@ -12,7 +12,7 @@ app.use(express.json())
 
 
 app.get("/",(req,res)=>{
-    console.log("Welcome to MyBook..")
+   res.send("Welcome to mybook app")
 })
 
 
